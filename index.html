@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TJ Talk</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="title">
+          <img src="icons/messaging.png" width="40px" />
+          <h1>TJ Talk</h1>
+        </div>
+        <button type="button" onclick="show_hide()">
+          <img src="icons/hamburger.jpg" width="40px" />
+        </button>
+      </header>
+      <div class="container">
+        <div class="users-window">
+          <div class="users-head">
+            <h3>People</h3>
+            <h4>3</h4>
+          </div>
+          <div class="users-list">
+            <p>Jarvis</p>
+            <p>Ultron</p>
+            <p>Veranica</p>
+          </div>
+        </div>
+        <div class="chat-window">
+          <div class="chats">
+            <div class="user-join">
+              <p><b> Jarvis </b>joined the chat!</p>
+            </div>
+            <div class="message incoming">
+              <h5>Jarvis</h5>
+              <p>Hello Ultron</p>
+            </div>
+            <div class="message outgoing">
+              <h5>Veranica</h5>
+              <p>Welcome Jarvis</p>
+            </div>
+          </div>
+          <div class="user-input">
+            <input type="text" placeholder="Type your message..." />
+            <button>Send</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
